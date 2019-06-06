@@ -1,0 +1,22 @@
+@import "../../assets/_variables";
+
+.TextInput {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+
+  margin-bottom: $margin-1;
+
+  > .TextInput--label {
+    font-size: 1rem;
+    margin: $margin-1 0;
+  }
+
+  > input {
+    border: none;
+    padding: $padding-1;
+    border-radius: $radius-1;
+
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../assets/_variables";
+
+.FormGroup {
+  display: flex;
+
+  > div {
+    margin-right: $margin-1;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

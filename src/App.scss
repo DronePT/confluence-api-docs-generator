@@ -1,0 +1,36 @@
+@import "./assets/_variables";
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+  .App-header {
+    font-size: calc(10px + 2vmin);
+  }
+
+  .App-content {
+    margin: 2rem;
+
+    min-width: 960px;
+
+    .App-output {
+      font-size: 0.8rem;
+      background-color: #191b1f;
+      border-radius: $radius-1;
+
+      padding: 2rem;
+      margin: 2rem auto;
+
+      line-height: 1.1rem;
+    }
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
